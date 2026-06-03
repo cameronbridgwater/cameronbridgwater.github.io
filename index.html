@@ -8,76 +8,163 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <div class="bg-orb orb1"></div>
+  <div class="bg-orb orb2"></div>
+  <div class="bg-grid"></div>
+
   <header class="hero">
     <nav class="nav">
-      <div class="logo">Cameron Bridgwater</div>
+      <div class="brand">
+        <span class="brand-dot"></span>
+        <span>Cameron Bridgwater</span>
+      </div>
       <div class="nav-links">
         <a href="#about">About</a>
         <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
         <a href="#contact">Contact</a>
       </div>
     </nav>
 
     <section class="hero-content">
       <p class="eyebrow">Communications • Growth Strategy • Data Analytics</p>
-      <h1>Clear communication, thoughtful strategy, and data that actually says something.</h1>
+      <h1>Clear messaging, smart growth, and data that earns its keep.</h1>
       <p class="intro">
-        I work across communications, growth, and analytics, with experience in messaging, campaigns, stakeholder communication, and data-informed problem solving.
+        I help teams connect strategy with execution across communications, growth, and analytics.
+        I like clean systems, useful insights, and work that makes people say, “oh, that actually helps.”
       </p>
       <div class="hero-buttons">
-        <a class="button primary" href="#projects">View Projects</a>
-        <a class="button secondary" href="https://www.linkedin.com/in/cameron-lee-bridgwater/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a class="button primary" href="#projects">See Projects</a>
+        <a class="button secondary" href="mailto:cameronbridgwater@gmail.com">Email Me</a>
+        <a class="button tertiary" href="https://www.linkedin.com/in/cameron-lee-bridgwater/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><strong>Comms</strong><span>Messaging, campaigns, stakeholder communication</span></div>
+        <div class="stat"><strong>Growth</strong><span>Email testing, retention, conversion thinking</span></div>
+        <div class="stat"><strong>Data</strong><span>Python, SQL, ML, dashboards, storytelling</span></div>
       </div>
     </section>
   </header>
 
   <main>
-    <section id="about" class="section">
-      <h2>About</h2>
+    <section id="about" class="section panel">
+      <div class="section-heading">
+        <p class="section-kicker">About</p>
+        <h2>Part strategist, part analyst, part editor who cannot ignore a bad headline.</h2>
+      </div>
       <p>
-        I am a communications and growth strategy professional with a growing technical portfolio in Python, SQL, machine learning, and data storytelling. My work sits at the intersection of audience insight, experimentation, and practical decision-making.
+        I work across nonprofit, media, product, and client strategy environments, building communication that is clear,
+        audience-aware, and tied to actual outcomes. I have also been deepening my technical work in Python, SQL, machine learning,
+        and data storytelling, which helps me move between high-level strategy and the details that make it work.
+      </p>
+      <p>
+        My sweet spot is where a good message meets good evidence. If something is complicated, my instinct is to make it useful,
+        understandable, and a little less painful to read.
       </p>
     </section>
 
     <section id="projects" class="section">
-      <h2>Selected Projects</h2>
+      <div class="section-heading">
+        <p class="section-kicker">Selected Projects</p>
+        <h2>Projects that blend analysis, interpretation, and actual decision-making.</h2>
+      </div>
 
       <div class="card-grid">
-        <article class="card">
+        <article class="card featured">
+          <div class="card-tag">Regression</div>
           <h3>Facebook Post Interaction</h3>
           <p>
-            Regression modeling project using Linear, Ridge, and Lasso regression to understand which Facebook post features are most associated with engagement.
+            Modeled Facebook post engagement with Linear, Ridge, and Lasso regression to understand which features drive total interactions.
+            A good reminder that timing matters, paid boosts help, and not every post deserves the same level of optimism.
           </p>
+          <ul>
+            <li>Focused on post consumers, consumptions, paid posts, and timing.</li>
+            <li>Compared models to find the strongest fit.</li>
+            <li>Translated coefficients into practical engagement insights.</li>
+          </ul>
         </article>
 
-        <article class="card">
+        <article class="card featured">
+          <div class="card-tag">Classification</div>
           <h3>Fraud Detection Analysis</h3>
           <p>
-            Classification workflow focused on fraud prediction, imbalanced transaction data, and model evaluation using practical performance metrics.
+            Built a fraud detection workflow using exploratory analysis and classification models to study imbalanced transaction data.
+            Fraud is rare, messy, and never in the mood to make life easy, so evaluation mattered more than raw accuracy.
           </p>
+          <ul>
+            <li>Used precision, recall, F1, and ROC AUC.</li>
+            <li>Explored transaction type and balance variables.</li>
+            <li>Compared Logistic Regression, Random Forest, and XGBoost.</li>
+          </ul>
         </article>
 
-        <article class="card">
+        <article class="card featured">
+          <div class="card-tag">Clustering</div>
           <h3>Audio Recommendation with Lyrical Clusters</h3>
           <p>
-            Unsupervised learning project using lyrical themes and clustering to group songs by mood and theme rather than genre alone.
+            Created a recommendation project that clusters songs by lyrical themes and age so tracks can be grouped by mood, not just genre.
+            In other words, playlists with a little more personality and a little less algorithmic small talk.
           </p>
+          <ul>
+            <li>Used lyrical topic scores like sadness, feelings, and violence.</li>
+            <li>Built human-readable cluster labels.</li>
+            <li>Designed recommendations around theme-based similarity.</li>
+          </ul>
         </article>
       </div>
     </section>
 
-    <section id="contact" class="section">
-      <h2>Contact</h2>
-      <p>Email: <a href="mailto:cameronbridgwater@gmail.com">cameronbridgwater@gmail.com</a></p>
-      <p>LinkedIn: <a href="https://www.linkedin.com/in/cameron-lee-bridgwater/" target="_blank" rel="noopener noreferrer">cameron-lee-bridgwater</a></p>
-      <p>GitHub: <a href="https://github.com/cameronbridgwater" target="_blank" rel="noopener noreferrer">cameronbridgwater</a></p>
+    <section id="experience" class="section panel">
+      <div class="section-heading">
+        <p class="section-kicker">Experience</p>
+        <h2>Where communication, operations, and growth strategy meet.</h2>
+      </div>
+      <div class="timeline">
+        <article class="timeline-item">
+          <span class="timeline-date">Sep 2025 to Present</span>
+          <h3>Communications Specialist, International College of Dentists</h3>
+          <p>Managing digital communications across email, blog, and website channels while supporting a $1M capital campaign and member engagement work.</p>
+        </article>
+        <article class="timeline-item">
+          <span class="timeline-date">Apr 2023 to Present</span>
+          <h3>Communications Manager, Rugby4All</h3>
+          <p>Leading multi-channel fundraising campaigns, optimizing lifecycle email journeys, and using audience data to support retention and growth.</p>
+        </article>
+        <article class="timeline-item">
+          <span class="timeline-date">Jul 2024 to Aug 2025</span>
+          <h3>Senior Client Strategist, Piano</h3>
+          <p>Partnered with enterprise clients on product roadmaps, behavior change strategies, and revenue-focused digital initiatives.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-panel">
+      <div class="section-heading">
+        <p class="section-kicker">Contact</p>
+        <h2>Let’s build something clear, useful, and maybe even a little impressive.</h2>
+      </div>
+      <div class="contact-links">
+        <a class="contact-card" href="mailto:cameronbridgwater@gmail.com">
+          <span>📧</span>
+          <strong>Email</strong>
+          <small>cameronbridgwater@gmail.com</small>
+        </a>
+        <a class="contact-card" href="https://www.linkedin.com/in/cameron-lee-bridgwater/" target="_blank" rel="noopener noreferrer">
+          <span>🔗</span>
+          <strong>LinkedIn</strong>
+          <small>cameron-lee-bridgwater</small>
+        </a>
+        <a class="contact-card" href="https://github.com/cameronbridgwater" target="_blank" rel="noopener noreferrer">
+          <span>💻</span>
+          <strong>GitHub</strong>
+          <small>cameronbridgwater</small>
+        </a>
+      </div>
     </section>
   </main>
 
   <footer class="footer">
     <p>Built by Cameron Bridgwater</p>
   </footer>
-
-  <script src="script.js"></script>
 </body>
 </html>
